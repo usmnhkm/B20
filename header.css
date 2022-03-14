@@ -26,6 +26,12 @@ header {
   font-family: georgia;
 }
 
+.menu-icon {
+  float: right;
+  margin: 0 50px;
+  line-height: 90px;
+  display: none;
+}
 
 .header-list {
   float: right;

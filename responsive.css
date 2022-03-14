@@ -1,7 +1,19 @@
 @media (max-width: 1000px) {
+    .header-list {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+    
     .barang {
         width: 40%;
         margin-top: 20px;
+    }
+
+    .btn-form {
+        margin-bottom: 20px;
     }
 }
 
