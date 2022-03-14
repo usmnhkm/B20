@@ -12,6 +12,9 @@ header {
   background-color: #0e593b;
   color: #fff;
   height: 90px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 .header-logo {
