@@ -4,8 +4,9 @@
 
 .barang-section {
     padding-top: 10px;
-    padding-bottom: 80px;
-    background-color: #f1f1e8 ;
+    padding-bottom: 60px;
+    background-color: #f1f1e8;
+    margin-top: 60px;
 }
 
 .barang-container {
@@ -24,12 +25,13 @@
 
 .items {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .barang {
     flex: auto;
-    width: 25%;
     margin-right: 15px;
+    width: 20%;
 }
 
 .card{
@@ -64,6 +66,9 @@
     padding: 10px 10px;
     text-align: center;
     border-top: dashed 1px #466432;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-text {
@@ -83,7 +88,6 @@
     text-align: justify;
     padding: 10px;
     border-radius: 10px;
-    flex: none;
     margin-right: 5px;
     box-shadow: 0 1.5px #0e593b;
 }

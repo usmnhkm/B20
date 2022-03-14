@@ -1,0 +1,13 @@
+@media (max-width: 1000px) {
+    .barang {
+        width: 40%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 670px) {
+    .barang {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
