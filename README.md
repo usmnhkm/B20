@@ -1,7 +1,7 @@
 # B20
 Project HTML CSS Kelas DTS Fullstack Ruby
 
-#Tim B20
+# Tim B20
 link: (https://usmnhkm.github.io/B20/)
 
 Anggota:
