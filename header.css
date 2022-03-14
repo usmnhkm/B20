@@ -1,0 +1,45 @@
+html, body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #0e593b;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  padding : 10px 40px;
+  margin-left: 30px;
+  font-size: 50px;
+  font-family: georgia;
+}
+
+
+.header-list {
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
+  font-family: Candara;
+}
+
+.header-list a {
+  line-height: 65px;
+  padding: 0px 30px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.3s;
+}
+
+.header-list a:hover {
+  background-color: #7cfc00;
+  padding: 0px 30px;
+}
