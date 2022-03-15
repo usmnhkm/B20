@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+  
+a {
+  text-decoration: none;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("sayur\ 4.jpg");
+  background-size: cover;
+  text-align: center;
+  background-repeat: repeat-x;    
+  background-position: 0px 0px;
+  animation: slidein 10s linear infinite alternate;
+       
+}
+
+@keyframes slidein {
+from {background-position: 0 0; }
+to {background-position: 0px -50px;}
+}
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    color: #f1f1e8;
+}
+
+.top-wrapper p {
+    color: #f1f1e8;
+    font-size: 15px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.beli {
+    background-color: #0E593B;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
