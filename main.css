@@ -8,16 +8,18 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url("img/sayur 4.jpg");
+  background-image: url("img/veggies.jpg");
   background-size: cover;
   text-align: center;
-  animation: slidein 10s linear infinite alternate;
+  animation: effect 10s infinite;
   top: 0;
 }
 
-@keyframes slidein {
-from {background-position: 0 0; }
-to {background-position: 0px -50px;}
+@keyframes effect {
+0%  {background-image: url("img/veggies.jpg");}
+25% {background-image: url("img/sayur 4.jpg");}
+50% {background-image: url("img/sayur 5.jpg");}
+100%{background-image: url("img/sayur 6.jpg");}
 }
 
 
